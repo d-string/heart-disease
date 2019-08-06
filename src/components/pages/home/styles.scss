@@ -1,0 +1,25 @@
+body {
+  background-image: url('../../../assets/bg-img.png');
+  background-repeat: no-repeat;
+}
+
+.main {
+  background-color: #f0f1f1;
+  margin-top: 12rem !important;
+  border-radius: 15px;
+}
+
+.card {
+  left: 35%;
+  background-color: unset !important;
+  border: none !important;
+}
+.card-body {
+  margin: 20px;
+  background-color: #f0f1f1 !important;
+  text-align: center;
+}
+
+.container {
+  max-width: 1273px;
+}
