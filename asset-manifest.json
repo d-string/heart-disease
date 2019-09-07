@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.54a7c929.chunk.css",
-    "main.js": "/static/js/main.35572c3a.chunk.js",
-    "main.js.map": "/static/js/main.35572c3a.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.f0910273.chunk.js": "/static/js/2.f0910273.chunk.js",
-    "static/js/2.f0910273.chunk.js.map": "/static/js/2.f0910273.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4b58b575dd3d229cb827e1e234f2a53c.js": "/precache-manifest.4b58b575dd3d229cb827e1e234f2a53c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.54a7c929.chunk.css.map": "/static/css/main.54a7c929.chunk.css.map",
-    "static/media/styles.scss": "/static/media/bg-img.446f29a7.png",
-    "static/media/result-img.png": "/static/media/result-img.46a4bd8f.png"
+    "main.css": "/heart-disease/static/css/main.a7d71edf.chunk.css",
+    "main.js": "/heart-disease/static/js/main.c4ff748e.chunk.js",
+    "main.js.map": "/heart-disease/static/js/main.c4ff748e.chunk.js.map",
+    "runtime~main.js": "/heart-disease/static/js/runtime~main.fa9a379d.js",
+    "runtime~main.js.map": "/heart-disease/static/js/runtime~main.fa9a379d.js.map",
+    "static/js/2.f0910273.chunk.js": "/heart-disease/static/js/2.f0910273.chunk.js",
+    "static/js/2.f0910273.chunk.js.map": "/heart-disease/static/js/2.f0910273.chunk.js.map",
+    "index.html": "/heart-disease/index.html",
+    "precache-manifest.415d0bb7db99d82150ce919d0eb0cba3.js": "/heart-disease/precache-manifest.415d0bb7db99d82150ce919d0eb0cba3.js",
+    "service-worker.js": "/heart-disease/service-worker.js",
+    "static/css/main.a7d71edf.chunk.css.map": "/heart-disease/static/css/main.a7d71edf.chunk.css.map",
+    "static/media/styles.scss": "/heart-disease/static/media/bg-img.446f29a7.png",
+    "static/media/result-img.png": "/heart-disease/static/media/result-img.46a4bd8f.png"
   }
 }
