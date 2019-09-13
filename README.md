@@ -1,3 +1,10 @@
+
+# NOTE 
+## This Backend Project Deployed in heroku free server, every 30 minute no action server will automatically sleep.
+## if you trying my app in demo maybe will little long for showing of result.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
