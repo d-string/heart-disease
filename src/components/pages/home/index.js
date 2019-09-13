@@ -38,38 +38,31 @@ function Home() {
       });
   }
 
-  // React.useEffect(() => {
-  //   return () => {
-  //     console.log(loading);
-  //     console.log(result);
-  //   };
-
-  // Regex Expresstion
-
-  // const minAge = ^(?:[2][5-9]|(?:[3-9][0-9]+)|(?:[1-9][0-9][0-9]+))$;
-
   return (
-    <div className="container pt-5 mt-5 pb-5 main">
+    <div className="container pt-5 mt-5 pb-5 main ">
+      <div className="judul">
+        <h3>Aplikasi Klasifikasi Penyakit Jantung</h3>
+      </div>
       {loading === false && result === null ? (
         <form onSubmit={onSubmit}>
-          <div className="row">
-            <div className="col-5">
+          <div className="row ">
+            <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
               <div className="form-group row">
                 <label className="col-6 col-form-label">Age</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <input
                     className="form-control"
                     type="text"
                     name="age"
-                    placeholder={'Min 25 Age'}
-                    pattern="^(?:[2][5-9]|(?:[3-9][0-9]+)|(?:[1-9][0-9][0-9]+))$"
+                    placeholder={'29 - 77'}
+                    pattern="(29|[3-6][0-9]|7[0-7])"
                     required
                   />
                 </div>
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Sex</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="sex" required>
                     <option value="" disabled selected>
                       Select Type Sex
@@ -81,7 +74,7 @@ function Home() {
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Cp</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="cp" required>
                     <option value="" disabled selected>
                       Select Chest Pain Type
@@ -95,26 +88,26 @@ function Home() {
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Trestbps </label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <input
                     className="form-control"
                     name="trestbps"
                     type="text"
-                    placeholder={'Range 90 - 200'}
-                    pattern="^([9][0-9]|[01][0-9][0-9]|20[0-0])$"
+                    placeholder={'Range 94 - 200'}
+                    pattern="(9[4-9]|1[0-9]{2}|200)"
                     required
                   />
                 </div>
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Chol</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <input
                     className="form-control"
                     name="chol"
                     type="text"
-                    placeholder={'Range 120 - 600'}
-                    pattern="(1[2-8][0-9]|19[0-9]|[2-5][0-9]{2}|600)"
+                    placeholder={'Range 120 - 564'}
+                    pattern="(1[2-8][0-9]|19[0-9]|[2-4][0-9]{2}|5[0-5][0-9]|56[0-4])"
                     required
                   />
                 </div>
@@ -123,7 +116,7 @@ function Home() {
                 <label className="col-6 col-form-label">
                   Fbs (> 120 mg/dl)
                 </label>
-                <div className="col-4">
+                <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="fbs" required>
                     <option value="" disabled selected>
                       Yes / No
@@ -134,11 +127,10 @@ function Home() {
                 </div>
               </div>
             </div>
-
-            <div className="offset-1 col-6">
+            <div className="offset-xl-1 offset-lg-1  col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
               <div className="form-group row">
                 <label className="col-6 col-form-label">Restecg</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="restecg" required>
                     <option value="" disabled selected>
                       Select Type Resting ECG
@@ -151,20 +143,20 @@ function Home() {
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Thalach</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <input
                     className="form-control"
                     name="thalach"
                     type="text"
-                    placeholder={'Range 70 - 200'}
-                    pattern="^([7-9][0-9]|[01][0-9][0-9]|20[0-0])$"
+                    placeholder={'Range 71 - 202'}
+                    pattern="(7[1-9]|[89][0-9]|1[0-9]{2}|20[0-2])"
                     required
                   />
                 </div>
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Exang</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="exang" required>
                     <option value="" disabled selected>
                       Yes / No
@@ -176,20 +168,20 @@ function Home() {
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Old Peak</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <input
                     className="form-control"
                     name="oldpeak"
                     type="text"
-                    placeholder={'Range 0 - 4'}
-                    pattern="([0-4])"
+                    placeholder={'Range 0 - 6.2'}
+                    pattern="(^[0-6](\.[0-2])?$)"
                     required
                   />
                 </div>
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Slope</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="slope" required>
                     <option value="" disabled selected>
                       Select Type Slope
@@ -202,10 +194,10 @@ function Home() {
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Ca</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="ca" required>
                     <option value="" disabled selected>
-                      Select Number of Vessels Colored
+                      Select Number of Vessels
                     </option>
                     <option value="0">0</option>
                     <option value="1">1</option>
@@ -217,10 +209,10 @@ function Home() {
               </div>
               <div className="form-group row">
                 <label className="col-6 col-form-label">Thal</label>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                   <select className="form-control" name="thal" required>
                     <option value="" disabled selected>
-                      Select Type Thalium stress
+                      Select Type Thalasemia stress
                     </option>
                     <option value="1">Normal</option>
                     <option value="2">Fixed Defect</option>
@@ -253,9 +245,13 @@ const Result = ({hasil}) => {
   return (
     <div className="result">
       <div class="card" style={{width: '20em'}}>
-        <img src={img_result} className="card-img-top" alt="result" />
-        <div class="card-body">
-          <p class="card-text">{hasil}</p>
+        <div className="row">
+          <div className="col-12">
+            <img src={img_result} className="card-img-top" alt="result" />
+            <div class="card-body">
+              <p class="card-text">{hasil}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

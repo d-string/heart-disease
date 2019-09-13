@@ -1,6 +1,29 @@
 body {
   background-image: url('../../../assets/bg-img.png');
   background-repeat: no-repeat;
+
+  @media only screen and (max-width: 800px) {
+    background-size: cover;
+  }
+}
+
+.judul {
+  display: flex;
+  position: relative;
+  bottom: 20px;
+  justify-content: center;
+  @media only screen and (max-width: 800px) {
+    h3 {
+      font-size: 17px;
+    }
+  }
+}
+
+.result {
+  background-color: #f0f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
@@ -10,7 +33,7 @@ body {
 }
 
 .card {
-  left: 35%;
+  //   left: 35%;
   background-color: unset !important;
   border: none !important;
 }
